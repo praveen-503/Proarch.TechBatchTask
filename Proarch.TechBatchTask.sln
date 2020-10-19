@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{728A71AE-2223-4F79-8167-4981CF896539}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{CF9CC6D3-09D7-4DD4-91EB-BDBE7CF1A0F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{0672B6DA-451C-40E3-BD46-2E26864A018C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proarch.TechBatchTask.Core.Domain", "Core\Proarch.TechBatchTask.Core.Domain\Proarch.TechBatchTask.Core.Domain.csproj", "{9F1E39EB-AD84-4FB8-859D-12E8926EE84A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proarch.TechBatchTask.Core.Application", "Core\Proarch.TechBatchTask.Core.Application\Proarch.TechBatchTask.Core.Application.csproj", "{35561791-05BC-43A5-9AB2-0B24821330DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proarch.TechBatchTask.Infrastructure.Data", "Infrastructure\Proarch.TechBatchTask.Infrastructure.Data\Proarch.TechBatchTask.Infrastructure.Data.csproj", "{6BA70950-8670-4691-970C-E9A306BCB70A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proarch.TechBatchTask.Presentaion.API", "Presentation\Proarch.TechBatchTask.Presentaion.API\Proarch.TechBatchTask.Presentaion.API.csproj", "{BA18E439-CB16-46B5-917C-FF2B979C3BCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F1E39EB-AD84-4FB8-859D-12E8926EE84A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F1E39EB-AD84-4FB8-859D-12E8926EE84A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F1E39EB-AD84-4FB8-859D-12E8926EE84A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F1E39EB-AD84-4FB8-859D-12E8926EE84A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35561791-05BC-43A5-9AB2-0B24821330DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35561791-05BC-43A5-9AB2-0B24821330DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35561791-05BC-43A5-9AB2-0B24821330DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35561791-05BC-43A5-9AB2-0B24821330DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BA70950-8670-4691-970C-E9A306BCB70A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BA70950-8670-4691-970C-E9A306BCB70A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BA70950-8670-4691-970C-E9A306BCB70A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BA70950-8670-4691-970C-E9A306BCB70A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA18E439-CB16-46B5-917C-FF2B979C3BCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA18E439-CB16-46B5-917C-FF2B979C3BCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA18E439-CB16-46B5-917C-FF2B979C3BCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA18E439-CB16-46B5-917C-FF2B979C3BCE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9F1E39EB-AD84-4FB8-859D-12E8926EE84A} = {728A71AE-2223-4F79-8167-4981CF896539}
+		{35561791-05BC-43A5-9AB2-0B24821330DB} = {728A71AE-2223-4F79-8167-4981CF896539}
+		{6BA70950-8670-4691-970C-E9A306BCB70A} = {CF9CC6D3-09D7-4DD4-91EB-BDBE7CF1A0F4}
+		{BA18E439-CB16-46B5-917C-FF2B979C3BCE} = {0672B6DA-451C-40E3-BD46-2E26864A018C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2EDDAE48-74A6-47BF-8C4D-A07927986597}
+	EndGlobalSection
+EndGlobal
